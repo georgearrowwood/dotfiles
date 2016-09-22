@@ -8,26 +8,12 @@ call vundle#begin()
 " let Vundle manage Vundle
 Plugin 'gmarik/Vundle.vim'  "+
 Plugin 'scrooloose/nerdtree' "+
-Plugin 'tomtom/tcomment_vim'
 Plugin 'pangloss/vim-javascript'
-Plugin 'digitaltoad/vim-jade'
-Plugin 'tpope/vim-surround'
-Plugin 'wavded/vim-stylus'
-Plugin 'wincent/command-t'
-Plugin 'kien/ctrlp.vim'
-Plugin 'nono/vim-handlebars'
-Plugin 'rking/ag.vim'
-Plugin 'ervandew/supertab'
 Plugin 'bling/vim-airline' "+
 Plugin 'airblade/vim-gitgutter'
-Plugin 'tpope/vim-fugitive'
-Plugin 'Lokaltog/vim-easymotion'
 Plugin 'tpope/vim-commentary'
 Plugin 'scrooloose/syntastic'
-Plugin 'mattn/emmet-vim'
-
 call vundle#end()            " required
-
 
 filetype plugin indent on    " required
 
@@ -80,8 +66,6 @@ match OverLength /\%81v.*/
 " Change the map leader from \ to ,
 let mapleader=","
 
-" Save with sudo
-noremap <Leader>w :w !sudo tee % > /dev/null
 
 " Quickly edit/reload the vimrc file
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
@@ -122,4 +106,3 @@ map <C-l> <C-W>l
 nnoremap <C-b> :bp<CR>
 nnoremap <C-m> :bn<CR>
 nnoremap <C-n> :bp<CR>:bd #<CR>
-

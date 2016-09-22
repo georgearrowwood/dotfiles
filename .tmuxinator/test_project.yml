@@ -1,0 +1,8 @@
+name: test_project
+root: ~/www/
+
+windows:
+ - Misc:
+     layout: even-vertical
+     panes:
+       - cd project;nodemon --watch lib .
