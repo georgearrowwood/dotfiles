@@ -10,7 +10,7 @@
 
 4. Install vim plugins.
 	In vim run:
-	
+
 	~~~vim
 	:PluginInstall
 	~~~
@@ -22,8 +22,9 @@
 	~~~
 
 6. Install Powerline Fonts for Airline
-	
-	[https://github.com/powerline/fonts](https://github.com/powerline/fonts)
-	
-	Then chose it in iterm2 (Settings -> Profiles -> Text -> Font Non ASCII)
 
+	Download fonts here:
+	[https://github.com/powerline/fonts](https://github.com/powerline/fonts)
+	Or just use one in folder.
+
+	Then chose it in iterm2 (Settings -> Profiles -> Text -> Font Non ASCII)

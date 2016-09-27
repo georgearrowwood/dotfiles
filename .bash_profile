@@ -10,6 +10,9 @@ fi
 # aliases
 alias ll='ls -lGa'
 
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder'
+
 #DB start aliases
 #alias mongostart='sudo mongod --fork --logpath ~/www/server/mongo.log'
 #alias pgstart='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
