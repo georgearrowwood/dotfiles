@@ -31,3 +31,4 @@ function title {
 }
 
 export EDITOR='vim'
+source ~/.bash_npm;
