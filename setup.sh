@@ -38,7 +38,4 @@ if which node > /dev/null; then
   echo node is already installed
 else
   nvm install 8
-  eval "`npm completion`"
 fi
-
-source ~/.bashrc

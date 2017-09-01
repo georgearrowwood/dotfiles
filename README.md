@@ -1,17 +1,10 @@
 # My Bash setup
 
 1. Run setup script. It will copy basic dot files, install brew, nvm, node, vim plugins
-
 	~~~
     ./setup.sh
 	~~~
-
-2. Reinitialize bash
-
-	~~~
-	source ~/.bashrc
-	~~~
-
+2. Restart terminal
 3. Optional: Install Powerline Fonts for Airline in iterm2
 
 	Download fonts here:
