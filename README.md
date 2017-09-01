@@ -1,27 +1,18 @@
 # My Bash setup
 
-1. Copy all dot files to ~
-2. Import color schemes:
-3. Install **Vundle** (plugin installer for vim)
+1. Run setup script. It will copy basic dot files, install brew, nvm, node, vim plugins
 
 	~~~
-	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+		./setup.sh
 	~~~
 
-4. Install vim plugins.
-	In vim run:
-
-	~~~vim
-	:PluginInstall
-	~~~
-
-5. Run shell config file
+2. Run shell config file
 
 	~~~bash
 	source ~/.bash_profile
 	~~~
 
-6. Install Powerline Fonts for Airline
+3. Optional: Install Powerline Fonts for Airline in iterm2
 
 	Download fonts here:
 	[https://github.com/powerline/fonts](https://github.com/powerline/fonts)
