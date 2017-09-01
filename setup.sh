@@ -11,18 +11,17 @@ fi
 
 # install bash completion
 if brew ls --versions bash-completion > /dev/null; then
-  echo bash-completion is already installed
+  echo "bash-completion is already installed"
 else
   brew install bash-completion
 fi
 
-if [ -f ~/.bash_profile ]; then 
-  echo dot file exist
-else  
+if [ -f ~/.bash_profile ]; then
+  echo "dot file exist"
+else
   cp -R .bash_profile .bashrc .vimrc .vim ~
   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim 
   vim -c 'PluginInstall' -c 'qa!'
-  source ~/.bash_profile
 fi
 
 # install nvm
@@ -41,3 +40,5 @@ else
   nvm install 8
   eval "`npm completion`"
 fi
+
+source ~/.bashrc

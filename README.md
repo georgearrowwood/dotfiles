@@ -3,13 +3,13 @@
 1. Run setup script. It will copy basic dot files, install brew, nvm, node, vim plugins
 
 	~~~
-		./setup.sh
+    ./setup.sh
 	~~~
 
-2. Run shell config file
+2. Reinitialize bash
 
-	~~~bash
-	source ~/.bash_profile
+	~~~
+	source ~/.bashrc
 	~~~
 
 3. Optional: Install Powerline Fonts for Airline in iterm2
